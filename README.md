@@ -1,6 +1,6 @@
 <p align="center">
  <img width="100px" src="https://github.com/Kevin-Kaio/AFK-Survival-Translation/blob/main/img/ilha_grande_tradutor.png" align="center" alt="AFK Survival Translation" />
- <h2 align="center">AFK Survival Translation</h2></p>
+ <h2 align="center">AFK Survival Translation - Under development</h2></p>
 
 👋 Hello, welcome to our game repository on GitHub! We believe that fun and interaction should be accessible to everyone, regardless of language. That's why we are always looking for community help to translate our game into other languages.<br>
 
