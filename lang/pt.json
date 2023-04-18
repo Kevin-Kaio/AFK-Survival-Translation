@@ -1,5 +1,50 @@
 {
-  "error": {
-	"message": "Oops! Ocorreu um erro inesperado. Nossa equipe de desenvolvedores já foi notificada e está trabalhando para resolvê-lo. Se você continuar a encontrar dificuldades, por favor, entre em contato com nossa equipe de suporte.\nID:"  
-  }
+   "error":{
+      "message":"Oops! Ocorreu um erro inesperado. Nossa equipe de desenvolvedores já foi notificada e está trabalhando para resolvê-lo. Se você continuar a encontrar dificuldades, por favor, entre em contato com nossa equipe de suporte.\nID:"
+   },
+   "home":{
+      "button":{
+         "island":{
+            "text":"ILHA"
+         },
+         "training":{
+            "text":"TREINAMENTO"
+         },
+         "rank":{
+            "text":"RANK"
+         },
+         "inventory":{
+            "text":"INVENTÁRIO"
+         },
+         "pvp":{
+            "text":"PVP"
+         },
+         "boss":{
+            "text":"BOSS"
+         },
+         "pets":{
+            "text":"PETS"
+         },
+         "events":{
+            "text":"EVENTOS"
+         },
+         "chest":{
+            "text":"BAÚ"
+         },
+         "dungeon":{
+            "text":"DUNGEON"
+         },
+         "missions":{
+            "text":"MISSÕES"
+         },
+         "clan":{
+            "text":"CLÃ"
+         }
+      },
+      "screens":{
+         "island":{
+            "title":"ILHA"
+         }
+      }
+   }
 }
