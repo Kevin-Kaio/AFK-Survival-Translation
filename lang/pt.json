@@ -37,6 +37,9 @@
                },
                "collect":{
                   "title":"COLETAR"
+               },
+               "hunt":{
+                  "title":"CAÇAR"
                }
             }
          }
