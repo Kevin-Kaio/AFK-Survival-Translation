@@ -32,7 +32,7 @@
             "subscreens":{
                "title":"EXPLORAR",
                "no_reward":"Você já descobriu tudo oque existe na ilha!",
-               "next reward":"PRÓXIMAS RECOMPENSAS:"
+               "next_reward":"PRÓXIMAS RECOMPENSAS:"
             }
          }
       }
