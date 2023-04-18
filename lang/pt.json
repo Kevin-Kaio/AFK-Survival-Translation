@@ -30,9 +30,14 @@
                "hunt":"CAÇAR"
             },
             "subscreens":{
-               "title":"EXPLORAR",
-               "no_reward":"Você já descobriu tudo oque existe na ilha!",
-               "next_reward":"PRÓXIMAS RECOMPENSAS:"
+               "island":{
+                  "title":"EXPLORAR",
+                  "no_reward":"Você já descobriu tudo oque existe na ilha!",
+                  "next_reward":"PRÓXIMAS RECOMPENSAS:"
+               },
+               "collect":{
+                  "title":"COLETAR"
+               }
             }
          }
       }
