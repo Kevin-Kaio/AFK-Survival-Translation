@@ -2,6 +2,10 @@
    "error":{
       "message":"Oops! Ocorreu um erro inesperado. Nossa equipe de desenvolvedores já foi notificada e está trabalhando para resolvê-lo. Se você continuar a encontrar dificuldades, por favor, entre em contato com nossa equipe de suporte.\nID:"
    },
+   "global":{
+      "cancel":"CANCELAR",
+      "start":"INICIAR"
+   },
    "home":{
       "button":{
          "island":"ILHA",
@@ -24,6 +28,11 @@
                "explore":"EXPLORAR",
                "collect":"COLETAR",
                "hunt":"CAÇAR"
+            },
+            "subscreens":{
+               "title":"EXPLORAR",
+               "no_reward":"Você já descobriu tudo oque existe na ilha!",
+               "next reward":"PRÓXIMAS RECOMPENSAS:"
             }
          }
       }
