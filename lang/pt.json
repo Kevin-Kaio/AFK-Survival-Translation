@@ -4,42 +4,18 @@
    },
    "home":{
       "button":{
-         "island":{
-            "text":"ILHA"
-         },
-         "training":{
-            "text":"TREINAMENTO"
-         },
-         "rank":{
-            "text":"RANK"
-         },
-         "inventory":{
-            "text":"INVENTÁRIO"
-         },
-         "pvp":{
-            "text":"PVP"
-         },
-         "boss":{
-            "text":"BOSS"
-         },
-         "pets":{
-            "text":"PETS"
-         },
-         "events":{
-            "text":"EVENTOS"
-         },
-         "chest":{
-            "text":"BAÚ"
-         },
-         "dungeon":{
-            "text":"DUNGEON"
-         },
-         "missions":{
-            "text":"MISSÕES"
-         },
-         "clan":{
-            "text":"CLÃ"
-         }
+         "island":"ILHA",
+         "training":"TREINAMENTO",
+         "rank":"RANK",
+         "inventory":"INVENTÁRIO",
+         "pvp":"PVP",
+         "boss":"BOSS",
+         "pets":"PETS",
+         "events":"EVENTOS",
+         "chest":"BAÚ",
+         "dungeon":"DUNGEON",
+         "missions":"MISSÕES",
+         "clan":"CLÃ"
       },
       "screens":{
          "island":{
