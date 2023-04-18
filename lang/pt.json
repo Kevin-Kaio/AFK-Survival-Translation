@@ -20,6 +20,11 @@
       "screens":{
          "island":{
             "title":"ILHA"
+			"button": {
+				"explore": "EXPLORAR",
+				"collect": "COLETAR",
+				"hunt": "CAÇAR"				
+			}
          }
       }
    }
