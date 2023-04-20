@@ -30,13 +30,15 @@
                "hunt":"CAÇAR"
             },
             "subscreens":{
-               "island":{
+               "explore":{
                   "title":"EXPLORAR",
                   "no_reward":"Você já descobriu tudo oque existe na ilha!",
                   "next_reward":"PRÓXIMAS RECOMPENSAS:"
                },
                "collect":{
-                  "title":"COLETAR"
+                  "title":"COLETAR",
+                  "total_collection":"COLETA TOTAL",
+                  "collection":"COLETA"
                },
                "hunt":{
                   "title":"CAÇAR"
@@ -44,5 +46,21 @@
             }
          }
       }
+   },
+   "items":{
+      "stick":"GRAVETO",
+      "stone":"PEDRA",
+      "shell":"CONCHA",
+      "sand":"AREIA",
+      "dirt":"TERRA",
+      "leaf":"FOLHA",
+      "wood":"MADEIRA",
+      "bamboo":"BAMBU",
+      "clay":"ARGILA",
+      "vine":"CIPO",
+      "cotton":"ALGODÃO",
+      "copper":"COBRE",
+      "iron":"FERRO",
+      "gold":"OURO"
    }
 }
