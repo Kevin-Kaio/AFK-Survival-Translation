@@ -4,7 +4,8 @@
    },
    "global":{
       "cancel":"CANCELAR",
-      "start":"INICIAR"
+      "start":"INICIAR",
+      "stop": "PARAR"
    },
    "home":{
       "button":{
