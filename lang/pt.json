@@ -42,7 +42,9 @@
                   "collection":"COLETA"
                },
                "hunt":{
-                  "title":"CAÇAR"
+                  "title":"CAÇAR",
+                  "total_hunt":"CAÇA TOTAL",
+                  "drop_event": "DROP EVENTO"
                }
             }
          }
