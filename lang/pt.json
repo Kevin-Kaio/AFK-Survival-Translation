@@ -5,7 +5,7 @@
    "global":{
       "cancel":"CANCELAR",
       "start":"INICIAR",
-      "stop": "PARAR"
+      "stop":"PARAR"
    },
    "home":{
       "button":{
@@ -63,5 +63,21 @@
       "copper":"COBRE",
       "iron":"FERRO",
       "gold":"OURO"
+   },
+   "monsters":{
+      "fish":"PEIXE",
+      "frog":"SAPO",
+      "turtle":"TARTARUGA",
+      "pufferfish":"BAIACU",
+      "rabbit":"COELHO",
+      "dolphin":"GOLFINHO",
+      "seal":"FOCA",
+      "seagull":"GAIVOTA",
+      "iguana":"IGUANA",
+      "spider":"ARANHA",
+      "capybara":"CAPIVARA",
+      "snake":"COBRA",
+      "bat":"MORCEGO",
+      "shark":"TUBARÃO"
    }
 }
