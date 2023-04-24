@@ -5,8 +5,7 @@
    "global":{
       "cancel":"CANCELAR",
       "start":"INICIAR",
-      "stop":"PARAR",
-      "quit":"SAIR"
+      "stop":"PARAR"
    },
    "home":{
       "button":{
@@ -25,7 +24,8 @@
       },
       "topbar":{
          "configuration":{
-            "title":"CONFIGURAÇÕES"
+            "title":"CONFIGURAÇÕES",
+            "quit_game":"SAIR DO JOGO"
          }
       },
       "screens":{
