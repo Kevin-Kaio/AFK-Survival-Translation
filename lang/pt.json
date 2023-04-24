@@ -5,7 +5,8 @@
    "global":{
       "cancel":"CANCELAR",
       "start":"INICIAR",
-      "stop":"PARAR"
+      "stop":"PARAR",
+      "quit":"SAIR"
    },
    "home":{
       "button":{
