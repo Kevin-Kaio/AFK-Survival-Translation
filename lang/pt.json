@@ -23,6 +23,10 @@
          "clan":"CLÃ"
       },
       "topbar":{
+         "shop":{
+            "title":"LOJA",
+            "no_product_available":"Nenhum produto disponível"
+         },
          "configuration":{
             "title":"CONFIGURAÇÕES",
             "quit_game":"SAIR DO JOGO"
