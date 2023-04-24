@@ -22,6 +22,11 @@
          "missions":"MISSÕES",
          "clan":"CLÃ"
       },
+      "topbar": {
+         "configuration" {
+            "title": "CONFIGURAÇÕES"
+         }
+      },
       "screens":{
          "island":{
             "title":"ILHA",
