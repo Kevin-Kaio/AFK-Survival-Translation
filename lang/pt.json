@@ -22,9 +22,9 @@
          "missions":"MISSÕES",
          "clan":"CLÃ"
       },
-      "topbar": {
-         "configuration": {
-            "title": "CONFIGURAÇÕES"
+      "topbar":{
+         "configuration":{
+            "title":"CONFIGURAÇÕES"
          }
       },
       "screens":{
@@ -49,7 +49,7 @@
                "hunt":{
                   "title":"CAÇAR",
                   "total_hunt":"CAÇA TOTAL",
-                  "drop_event": "DROP EVENTO"
+                  "drop_event":"DROP EVENTO"
                }
             }
          }
