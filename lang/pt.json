@@ -23,6 +23,10 @@
          "clan":"CLÃ"
       },
       "topbar":{
+         "messages":{
+           "title":"MENSAGENS",
+           "no_message":"Nenhuma mensagem."
+         },
          "shop":{
             "title":"LOJA",
             "no_product_available":"Nenhum produto disponível"
