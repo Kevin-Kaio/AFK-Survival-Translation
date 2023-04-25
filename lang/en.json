@@ -1,0 +1,99 @@
+{
+   "error":{
+      "message":"Oops! An unexpected error has occurred. Our development team has already been notified and is working to fix it. If you continue to experience difficulties, please contact our support team.\nID:"
+   },
+   "global":{
+      "cancel":"CANCEL",
+      "start":"START",
+      "stop":"STOP"
+   },
+   "home":{
+      "button":{
+         "island":"ISLAND",
+         "training":"TRAINING",
+         "rank":"RANK",
+         "inventory":"INVENTORY",
+         "pvp":"PVP",
+         "boss":"BOSS",
+         "pets":"PETS",
+         "events":"EVENTS",
+         "chest":"CHEST",
+         "dungeon":"DUNGEON",
+         "missions":"MISSIONS",
+         "clan":"CLAN"
+      },
+      "topbar":{
+         "messages":{
+            "title":"MESSAGES",
+            "no_message":"No messages."
+         },
+         "shop":{
+            "title":"SHOP",
+            "no_product_available":"No products available"
+         },
+         "configuration":{
+            "title":"SETTINGS",
+            "quit_game":"QUIT GAME"
+         }
+      },
+      "screens":{
+         "island":{
+            "title":"ISLAND",
+            "button":{
+               "explore":"EXPLORE",
+               "collect":"COLLECT",
+               "hunt":"HUNT"
+            },
+            "subscreens":{
+               "explore":{
+                  "title":"EXPLORE",
+                  "no_reward":"You have already discovered everything that exists on the island!",
+                  "next_reward":"NEXT REWARDS:"
+               },
+               "collect":{
+                  "title":"COLLECT",
+                  "total_collection":"TOTAL COLLECTION",
+                  "collection":"COLLECTION"
+               },
+               "hunt":{
+                  "title":"HUNT",
+                  "total_hunt":"TOTAL HUNT",
+                  "drop_event":"DROP EVENT"
+               }
+            }
+         }
+      }
+   },
+   "items":{
+      "stick":"STICK",
+      "stone":"STONE",
+      "shell":"SHELL",
+      "sand":"SAND",
+      "dirt":"DIRT",
+      "leaf":"LEAF",
+      "wood":"WOOD",
+      "bamboo":"BAMBOO",
+      "clay":"CLAY",
+      "vine":"VINE",
+      "cotton":"COTTON",
+      "copper":"COPPER",
+      "iron":"IRON",
+      "gold":"GOLD"
+   },
+   "monsters":{
+      "fish":"FISH",
+      "frog":"FROG",
+      "turtle":"TURTLE",
+      "pufferfish":"PUFFERFISH",
+      "rabbit":"RABBIT",
+      "dolphin":"DOLPHIN",
+      "seal":"SEAL",
+      "seagull":"SEAGULL",
+      "iguana":"IGUANA",
+      "spider":"SPIDER",
+      "capybara":"CAPYBARA",
+      "snake":"SNAKE",
+      "bat":"BAT",
+      "shark":"SHARK"
+   }
+}
