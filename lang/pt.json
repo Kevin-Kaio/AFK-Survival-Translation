@@ -24,8 +24,8 @@
       },
       "topbar":{
          "messages":{
-           "title":"MENSAGENS",
-           "no_message":"Nenhuma mensagem."
+            "title":"MENSAGENS",
+            "no_message":"Nenhuma mensagem."
          },
          "shop":{
             "title":"LOJA",
@@ -61,6 +61,10 @@
                   "drop_event":"DROP EVENTO"
                }
             }
+         },
+         "rank":{
+            "no_player":"Nenhum jogador encontrado",
+            "trophies":"TROFÉUS"
          }
       }
    },
