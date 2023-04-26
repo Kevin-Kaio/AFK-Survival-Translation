@@ -65,6 +65,11 @@
          "rank":{
             "no_player":"Nenhum jogador encontrado",
             "trophies":"TROFÉUS"
+         },
+         "training":{
+            "title":"TREINAMENTO",
+            "click":"CLIQUE",
+            "strength_click": "FORÇA DO CLIQUE"
          }
       }
    },
