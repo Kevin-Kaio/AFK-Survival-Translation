@@ -23,6 +23,12 @@
          "clan":"CLÃ"
       },
       "topbar":{
+         "profile":{
+            "title":"PERFIL",
+            "change_nick":"ALTERAR NOME",
+            "change_titles":"ALTERAR TÍTULO",
+            "distribute_points":"PONTOS PARA DISTRIBUIR"
+         },
          "messages":{
             "title":"MENSAGENS",
             "no_message":"Nenhuma mensagem."
@@ -69,7 +75,7 @@
          "training":{
             "title":"TREINAMENTO",
             "click":"CLIQUE",
-            "strength_click": "FORÇA DO CLIQUE"
+            "strength_click":"FORÇA DO CLIQUE"
          }
       }
    },
