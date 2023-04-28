@@ -37,7 +37,7 @@
             "change_nick":"ALTERAR NOME",
             "change_titles":"ALTERAR TÍTULO",
             "points":"PONTOS",
-            "distribute_stats": "DISTRIBUIR STATUS",
+            "distribute_points": "DISTRIBUIR PONTOS",
             "reset_points":"RESETAR PONTOS",
             "error_exist_name":"O nome inserido já está em uso."
          },
