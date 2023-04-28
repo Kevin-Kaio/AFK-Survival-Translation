@@ -5,7 +5,9 @@
    "global":{
       "cancel":"CANCELAR",
       "start":"INICIAR",
-      "stop":"PARAR"
+      "stop":"PARAR",
+      "speed": "VELOCIDADE",
+      "luck": "SORTE"
    },
    "home":{
       "button":{
