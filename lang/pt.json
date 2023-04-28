@@ -13,7 +13,8 @@
       "victory":"VITORIA",
       "defeat":"DERROTA",
       "kills":"ABATES",
-      "deaths":"MORTES"
+      "deaths":"MORTES",
+      "stats":"STATUS"
    },
    "home":{
       "button":{
