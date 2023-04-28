@@ -28,7 +28,7 @@
             "change_nick":"ALTERAR NOME",
             "change_titles":"ALTERAR TÍTULO",
             "distribute_points":"PONTOS",
-            "error_exist_name": "O nome inserido já está em uso. Por favor, escolha outro nome."
+            "error_exist_name": "O nome inserido já está em uso."
          },
          "messages":{
             "title":"MENSAGENS",
