@@ -38,7 +38,7 @@
             "change_nick":"ALTERAR NOME",
             "change_titles":"ALTERAR TÍTULO",
             "points":"PONTOS",
-            "distribute_points": "DISTRIBUIR PONTOS",
+            "distribute_points":"DISTRIBUIR PONTOS",
             "reset_points":"RESETAR PONTOS",
             "error_exist_name":"O nome inserido já está em uso.",
             "reset_error":"Durante a exploração, coleta ou caça, não é possível resetar seus pontos."
@@ -90,6 +90,11 @@
             "title":"TREINAMENTO",
             "click":"CLIQUE",
             "strength_click":"FORÇA DO CLIQUE"
+         },
+         "events":{
+            "easter":{
+               "title":"PASCOA"
+            }
          }
       }
    },
