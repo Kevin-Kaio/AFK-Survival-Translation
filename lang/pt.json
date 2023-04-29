@@ -92,6 +92,7 @@
             "strength_click":"FORÇA DO CLIQUE"
          },
          "events":{
+            "title": "EVENTOS",
             "easter":{
                "title":"PASCOA"
             }
