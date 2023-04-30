@@ -91,8 +91,12 @@
             "click":"CLIQUE",
             "strength_click":"FORÇA DO CLIQUE"
          },
+         "pvp":{
+            "text":"Olá jogador, bem-vindo à tela de Batalha! Aqui você pode desafiar outros jogadores e mostrar suas habilidades. Em cada evento de Batalha, você pode ganhar recompensas incríveis. Além disso, ao final do evento de Batalha, você receberá prêmios de acordo com seu rank de pontuação.\n\nO rank de pontuação é baseado na sua performance durante a batalha e inclui os seguintes níveis:\nBronze (300 a 649 pontos)\nPrata (650 a 1199 pontos)\nOuro (1200 a 1799 pontos)\nPlatina (1800 pontos ou mais)\n\nA premiação da 3ª TEMPORADA de Batalha os vencedores também receberão uma quantidade de ouro e gema de acordo com seu rank de pontuação. A premiação será a seguinte:\nBronze - 50K de ouro e 50 gema\nPrata - 250K de ouro e 100 gema\nOuro - 500K de ouro e 150 gema\nPlatina - 1M de ouro e 200 gema\n\nAlém disso, os jogadores que ficarem no TOP 3 também receberão uma quantidade adicional de ouro e gema:\nTOP 1 - 6M de ouro e 350 gema\nTOP 2 - 4M de ouro e 300 gema\nTOP 3 - 2M de ouro e 250 gema\n\nBoa sorte em suas batalhas!",
+            "final_date":"Fim: 06/05/2023 21:00:00 - Brasília"
+         },
          "events":{
-            "title": "EVENTOS",
+            "title":"EVENTOS",
             "easter":{
                "title":"PASCOA",
                "text":"Início: 2023-04-08 00:00:00 (UTC +00:00)\nFim: 2023-04-22 23:59:59 (UTC +00:00)\n\nPara ganhar fragmentos você deve coletar aqui diariamente ou caçar coelhos na aba de caça.\nPrêmios:\n1 - 5M de ouro, 600 gema 6 ovos especiais da pascoa.\n2 - 4M de ouro, 500 gema 5 ovos especiais da pascoa.\n3 - 3M de ouro, 400 gema 4 ovos especiais da pascoa.\n4 - 2M de ouro, 300 gema 3 ovos especiais da pascoa.\n5 - 1M de ouro, 200 gema 2 ovos especiais da pascoa.\n\nO restante receberá:\n- 250K de ouro, 100 gema 1 ovo especial da pascoa."
