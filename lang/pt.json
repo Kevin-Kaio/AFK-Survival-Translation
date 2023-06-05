@@ -1,6 +1,7 @@
 {
    "error":{
-      "message":"Oops! Ocorreu um erro inesperado. Nossa equipe de desenvolvedores já foi notificada e está trabalhando para resolvê-lo. Se você continuar a encontrar dificuldades, por favor, entre em contato com nossa equipe de suporte.\nID:"
+      "message":"Oops! Ocorreu um erro inesperado. Nossa equipe de desenvolvedores já foi notificada e está trabalhando para resolvê-lo. Se você continuar a encontrar dificuldades, por favor, entre em contato com nossa equipe de suporte.\nID:",
+      "multiple_connection_warning":"Você foi desconectado devido ao uso simultâneo da conta em outro dispositivo."
    },
    "global":{
       "cancel":"CANCELAR",
@@ -15,7 +16,20 @@
       "defeat":"DERROTA",
       "kills":"ABATES",
       "deaths":"MORTES",
-      "stats":"STATUS"
+      "stats":"STATUS",
+      "title":"TÍTULO",
+      "reward":"RECOMPENSA",
+      "yes":"SIM",
+      "no":"NÃO",
+      "loot_random":"LOOT ALEATORIO",
+      "pet_essence":"+ ESSÊNCIA PET",
+      "update":"ATUALIZAR",
+      "chance":"CHANCE",
+      "camp_fire":"FOGUEIRA",
+      "time":"TEMPO",
+      "delete":"DELETAR",
+      "no_item":"SEM ITEM",
+      "use":"USAR"
    },
    "home":{
       "button":{
@@ -41,7 +55,8 @@
             "distribute_points":"DISTRIBUIR PONTOS",
             "reset_points":"RESETAR PONTOS",
             "error_exist_name":"O nome inserido já está em uso.",
-            "reset_error":"Durante a exploração, coleta ou caça, não é possível resetar seus pontos."
+            "reset_error":"Durante a exploração, coleta ou caça, não é possível resetar seus pontos.",
+            "error_minimum_characters":"Mínimo 3 caracteres"
          },
          "messages":{
             "title":"MENSAGENS",
@@ -91,10 +106,30 @@
             "click":"CLIQUE",
             "strength_click":"FORÇA DO CLIQUE"
          },
+         "inventory":{
+            "title":"INVENTÁRIO"
+         },
          "pvp":{
-            "battle":"BATALHAR",
+            "battle_button":"BATALHAR",
             "text":"👋 Olá naufragado, bem-vindo à Arena! Aqui você pode desafiar outros jogadores e mostrar suas habilidades. 🎁 Além disso, ao final do evento da Arena, você receberá prêmios de acordo com seu rank de pontuação. 🏆\n\nO rank de pontuação é baseado na sua performance durante a arena e inclui os seguintes níveis:\n🥉Bronze (300 a 999 pontos)\n🥈Prata (1000 a 1799 pontos)\n🥇Ouro (1800 a 2799 pontos)\n🏅Platina (2800 pontos ou mais)\n\nA premiação da 3ª TEMPORADA da Arena os vencedores também receberão uma quantidade de ouro e gema de acordo com seu rank de pontuação. A premiação será a seguinte:\n🥉Bronze - 50K de ouro e 50 gema\n🥈Prata - 250K de ouro e 100 gema\n🥇Ouro - 500K de ouro e 150 gema\n🏅Platina - 1M de ouro e 200 gema\n\n  Além disso, os jogadores que ficarem no TOP 3 também receberão uma quantidade adicional de ouro e gema:\n🥇TOP 1 - 6M de ouro e 350 gema\n🥈TOP 2 - 4M de ouro e 300 gema\n🥉TOP 3 - 2M de ouro e 250 gema\n\n  Boa sorte em suas batalhas! 🍀",
-            "final_date":"Fim: 06/05/2023 21:00:00 - Brasília"
+            "final_date":"Fim: 06/05/2023 21:00:00 - Brasília",
+            "battle":{
+               "title":"BATALHA",
+               "start":"INICIAR COMBATE",
+               "victory":"VOCÊ GANHOU, CLIQUE AQUI PARA SAIR",
+               "lose":"VOCÊ PERDEU, CLIQUE AQUI PARA SAIR",
+               "escape":"FUGIR DO COMBATE",
+               "escape_text_player":"Fugir da batalha pode resultar na perda de troféus e ser interpretado como uma derrota.\n\n Você tem certeza que deseja fugir?",
+               "escape_text_boss":"Fugir da batalha pode resultar na perda das recompensas do dia deste boss.\n\n Você tem certeza que deseja fugir?"
+            }
+         },
+         "pets":{
+            "no_wood_camp_fire":"Sua fogueira está apagada! Para incubar seus ovos, é necessário acendê-la novamente. Certifique-se de reabastecer a fogueira com lenha suficiente para mantê-la acesa por tempo suficiente para incubar seus ovos.",
+            "camp_fire":{
+               "eggs":"OVOS",
+               "broke":"QUEBROU",
+               "feed_camp_fire":"ALIMENTAR FOGUEIRA"
+            }
          },
          "events":{
             "title":"EVENTOS",
