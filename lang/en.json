@@ -1,11 +1,35 @@
 {
    "error":{
-      "message":"Oops! An unexpected error has occurred. Our development team has already been notified and is working to fix it. If you continue to experience difficulties, please contact our support team.\nID:"
+      "message":"Oops! An unexpected error has occurred. Our development team has been notified and is working to resolve it. If you continue to encounter difficulties, please contact our support team.\nID:",
+      "multiple_connection_warning":"You have been disconnected due to simultaneous account use on another device."
    },
    "global":{
       "cancel":"CANCEL",
       "start":"START",
-      "stop":"STOP"
+      "stop":"STOP",
+      "close":"CLOSE",
+      "speed":"SPEED",
+      "luck":"LUCK",
+      "gold":"GOLD",
+      "gem":"GEM",
+      "victory":"VICTORY",
+      "defeat":"DEFEAT",
+      "kills":"KILLS",
+      "deaths":"DEATH",
+      "stats":"STATUS",
+      "title":"TITLE",
+      "reward":"REWARD",
+      "yes":"YES",
+      "no":"NO",
+      "loot_random":"LOOT RANDOM",
+      "pet_essence":"+ PET ESSENCE",
+      "update":"UPDATE",
+      "chance":"CHANCE",
+      "camp_fire":"CAMPBORN",
+      "time":"TIME",
+      "delete":"DELETE",
+      "no_item":"NO ITEM",
+      "use":"USE"
    },
    "home":{
       "button":{
@@ -13,23 +37,34 @@
          "training":"TRAINING",
          "rank":"RANK",
          "inventory":"INVENTORY",
-         "pvp":"PVP",
+         "pvp":"pvp",
          "boss":"BOSS",
          "pets":"PETS",
          "events":"EVENTS",
-         "chest":"CHEST",
+         "chest":"CHECK",
          "dungeon":"DUNGEON",
          "missions":"MISSIONS",
          "clan":"CLAN"
       },
       "topbar":{
+         "profile":{
+            "title":"PROFILE",
+            "change_nick":"CHANGE NAME",
+            "change_titles":"CHANGE TITLE",
+            "points":"POINTS",
+            "distribute_points":"DISTRIBUTE POINTS",
+            "reset_points":"RESET POINTS",
+            "error_exist_name":"The entered name is already in use.",
+            "reset_error":"While exploring, gathering or hunting, it is not possible to reset your points.",
+            "error_minimum_characters":"Minimum 3 characters"
+         },
          "messages":{
             "title":"MESSAGES",
-            "no_message":"No messages."
+            "no_message":"No message."
          },
          "shop":{
             "title":"SHOP",
-            "no_product_available":"No products available"
+            "no_product_available":"No product available"
          },
          "configuration":{
             "title":"SETTINGS",
@@ -47,7 +82,7 @@
             "subscreens":{
                "explore":{
                   "title":"EXPLORE",
-                  "no_reward":"You have already discovered everything that exists on the island!",
+                  "no_reward":"You already discovered everything that exists on the island!",
                   "next_reward":"NEXT REWARDS:"
                },
                "collect":{
@@ -56,10 +91,51 @@
                   "collection":"COLLECTION"
                },
                "hunt":{
-                  "title":"HUNT",
+                  "title":"HUNTING",
                   "total_hunt":"TOTAL HUNT",
                   "drop_event":"DROP EVENT"
                }
+            }
+         },
+         "rank":{
+            "no_player":"No player found",
+            "trophies":"TROPHIES"
+         },
+         "training":{
+            "title":"TRAINING",
+            "click":"CLICK",
+            "strength_click":"STRENGTH OF CLICK"
+         },
+         "inventory":{
+            "title":"INVENTORY"
+         },
+         "pvp":{
+            "battle_button":"BATTLE",
+            "text":"👋 Hello Shipwrecked, welcome to the Arena! Here you can challenge other players and show your skills. 🎁 Also, at the end of the Arena event, you will receive prizes according to your score rank. 🏆\\ n\nThe score rank is based on your performance during the arena and includes the following levels:\n🥉Bronze (300 to 999 points)\n🥈Silver (1000 to 1799 points)\n🥇Gold (1800 to 2799 points) \n🏅Platinum (2800 points or more)\n\nArena SEASON 3 award winners will also receive an amount of gold and gem according to their score rank. The award will be as follows:\n🥉Bronze - 50K Gold and 50 Gem\n🥈Silver - 250K Gold and 100 Gem\n🥇Gold - 500K Gold and 150 Gem\n🏅Platinum - 1M Gold and 200 Gem\n\n In addition, players who stay in TOP 3 will also receive an additional amount of Gold and Gem:\n🥇TOP 1 - 6M Gold and 350 Gem\n🥈TOP 2 - 4M Gold and 300 Gem\n🥉TOP 3 - 2M Gold and 250 Gem\n \n Good luck in your battles! 🍀",
+            "final_date":"End: 06/05/2023 21:00:00 - Brasilia",
+            "battle":{
+               "title":"BATTLE",
+               "start":"START COMBAT",
+               "victory":"YOU WIN, CLICK HERE TO EXIT",
+               "lose":"YOU LOST IT, CLICK HERE TO EXIT",
+               "escape":"RUN FROM COMBAT",
+               "escape_text_player":"Escape from battle may result in loss of trophies and be interpreted as a defeat.\n\n Are you sure you want to escape?",
+               "escape_text_boss":"Escape from battle may result in the loss of the day's rewards from this boss.\n\n Are you sure you want to escape?"
+            }
+         },
+         "pets":{
+            "no_wood_camp_fire":"Your campfire is out! To hatch your eggs, you need to relight it. Make sure you refill your campfire with enough wood to keep it burning long enough to hatch your eggs.",
+            "camp_fire":{
+               "eggs":"EGGS",
+               "broke":"BROKE",
+               "feed_camp_fire":"FEED CAMP"
+            }
+         },
+         "events":{
+            "title":"EVENTS",
+            "easter":{
+               "title":"EASTER",
+               "text":"Start: 2023-04-08 00:00:00 (UTC +00:00)\nEnd: 2023-04-22 23:59:59 (UTC +00:00)\n\nTo earn shards you must collect here daily or hunt rabbits in the hunting tab.\nPrizes:\n1 - 5M gold, 600 yolk 6 special easter eggs.\n2 - 4M gold, 500 yolk 5 special easter eggs.\n3 - 3M gold, 400 yolk 4 special easter eggs.\n4 - 2M gold, 300 yolk 3 special easter eggs.\n5 - 1M gold, 200 yolk 2 special easter eggs.\n\nThe rest will receive:\n - 250K Gold, 100 Yolk 1 Special Easter Egg."
             }
          }
       }
@@ -69,12 +145,12 @@
       "stone":"STONE",
       "shell":"SHELL",
       "sand":"SAND",
-      "dirt":"DIRT",
+      "dirt":"EARTH",
       "leaf":"LEAF",
       "wood":"WOOD",
       "bamboo":"BAMBOO",
       "clay":"CLAY",
-      "vine":"VINE",
+      "vine":"CIPO",
       "cotton":"COTTON",
       "copper":"COPPER",
       "iron":"IRON",
@@ -84,16 +160,58 @@
       "fish":"FISH",
       "frog":"FROG",
       "turtle":"TURTLE",
-      "pufferfish":"PUFFERFISH",
-      "rabbit":"RABBIT",
-      "dolphin":"DOLPHIN",
-      "seal":"SEAL",
+      "pufferfish":"BAIACU",
+      "rabbit":"COELHO",
+      "dolphin":"GOLFIN",
+      "seal":"FOCA",
       "seagull":"SEAGULL",
       "iguana":"IGUANA",
       "spider":"SPIDER",
       "capybara":"CAPYBARA",
-      "snake":"SNAKE",
+      "snake":"COBRA",
       "bat":"BAT",
       "shark":"SHARK"
+   },
+   "titles":{
+      "title_1":"Newbie 1",
+      "title_2":"Newbie 2",
+      "title_3":"Newbie 3",
+      "title_4":"Newbie 4",
+      "title_5":"Newbie 5",
+      "title_6":"Apprentice 1",
+      "title_7":"Apprentice 2",
+      "title_8":"Apprentice 3",
+      "title_9":"Apprentice 4",
+      "title_10":"Apprentice 5",
+      "title_11":"Beginner 1",
+      "title_12":"Beginner 2",
+      "title_13":"Beginner 3",
+      "title_14":"Beginner 4",
+      "title_15":"Beginner 5",
+      "title_16":"Trained 1",
+      "title_17":"Trained 2",
+      "title_18":"Trained 3",
+      "title_19":"Trained 4",
+      "title_20":"Trained 5",
+      "title_21":"Experienced 1",
+      "title_22":"Experienced 2",
+      "title_23":"Experienced 3",
+      "title_24":"Experienced 4",
+      "title_25":"Experienced 5",
+      "title_26":"Veteran 1",
+      "title_27":"Veteran 2",
+      "title_28":"Veteran 3",
+      "title_29":"Veteran 4",
+      "title_30":"Veteran 5",
+      "title_31":"Master 1",
+      "title_32":"Master 2",
+      "title_33":"Master 3",
+      "title_34":"Master 4",
+      "title_35":"Master 5",
+      "title_36":"Legendary 1",
+      "title_37":"Legendary 2",
+      "title_38":"Legendary 3",
+      "title_39":"Legendary 4",
+      "title_40":"Legendary 5"
    }
 }
