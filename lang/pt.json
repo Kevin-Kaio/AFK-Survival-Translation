@@ -1,7 +1,8 @@
 {
    "error":{
       "message":"Oops! Ocorreu um erro inesperado. Nossa equipe de desenvolvedores já foi notificada e está trabalhando para resolvê-lo. Se você continuar a encontrar dificuldades, por favor, entre em contato com nossa equipe de suporte.\nID:",
-      "multiple_connection_warning":"Você foi desconectado devido ao uso simultâneo da conta em outro dispositivo."
+      "multiple_connection_warning":"Você foi desconectado devido ao uso simultâneo da conta em outro dispositivo.",
+      "new_version":"Nova versão disponível!\nAtualize agora para aproveitar novas funcionalidades e melhorias de desempenho."
    },
    "global":{
       "cancel":"CANCELAR",
