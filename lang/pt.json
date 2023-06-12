@@ -144,6 +144,15 @@
          }
       }
    },
+   "equipament":{
+      "sword":"ESPADA",
+      "shield":"ESCUDO",
+      "helmet":"CAPACETE",
+      "chestplate":"PEITORAL",
+      "pants":"CALÇA",
+      "glove":"LUVA",
+      "boot":"BOTA"
+   },
    "items":{
       "stick":"GRAVETO",
       "stone":"PEDRA",
