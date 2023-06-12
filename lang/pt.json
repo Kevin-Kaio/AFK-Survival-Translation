@@ -85,7 +85,8 @@
                "explore":{
                   "title":"EXPLORAR",
                   "no_reward":"Você já descobriu tudo oque existe na ilha!",
-                  "next_reward":"PRÓXIMAS RECOMPENSAS:"
+                  "next_reward":"PRÓXIMAS RECOMPENSAS:",
+                  "cancel_exploration":"Você tem certeza de que deseja cancelar a exploração?"
                },
                "collect":{
                   "title":"COLETAR",
