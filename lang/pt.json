@@ -121,12 +121,13 @@
                "victory":"VOCÊ GANHOU, CLIQUE AQUI PARA SAIR",
                "lose":"VOCÊ PERDEU, CLIQUE AQUI PARA SAIR",
                "escape":"FUGIR DO COMBATE",
-               "escape_text_player":"Fugir da batalha pode resultar na perda de troféus e ser interpretado como uma derrota.\n\n Você tem certeza que deseja fugir?",
+               "escape_text_player":"Fugir da batalha pode resultar na perda de troféus e ser interpretado como uma derrota.\n\nVocê tem certeza que deseja fugir?",
                "escape_text_boss":"Fugir da batalha pode resultar na perda das recompensas do dia deste boss.\n\n Você tem certeza que deseja fugir?"
             }
          },
          "pets":{
             "no_wood_camp_fire":"Sua fogueira está apagada! Para incubar seus ovos, é necessário acendê-la novamente. Certifique-se de reabastecer a fogueira com lenha suficiente para mantê-la acesa por tempo suficiente para incubar seus ovos.",
+            "delete_pet":"Você tem certeza de que deseja deletar o seu pet?\n\nEssa ação será permanente e todas as informações relacionadas ao seu pet serão apagadas.",
             "camp_fire":{
                "eggs":"OVOS",
                "broke":"QUEBROU",
