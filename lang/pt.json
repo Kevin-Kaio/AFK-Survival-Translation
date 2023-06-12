@@ -153,6 +153,19 @@
       "glove":"LUVA",
       "boot":"BOTA"
    },
+   "pets":{
+      "mouse_1":"Rato cinza",
+      "mouse_2":"Rato branco",
+      "mouse_3":"Rato preto",
+      "mouse_4":"Rei roedor",
+      "mouse_5":"Duque roedor",
+      "mouse_6":"Conde roedor",
+      "rabbit_1":"Coelho bronze",
+      "rabbit_2":"Coelho prata",
+      "rabbit_3":"Coelho dourado",
+      "rabbit_4":"Coelho branco",
+      "rabbit_5":"Eren",
+   },
    "items":{
       "stick":"GRAVETO",
       "stone":"PEDRA",
