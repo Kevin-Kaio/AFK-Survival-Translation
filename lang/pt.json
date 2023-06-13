@@ -166,6 +166,23 @@
       "rabbit_4":"Coelho branco",
       "rabbit_5":"Eren"
    },
+   "items_pets":{
+      "common_egg":"Ovo Comum",
+      "special_egg":"Ovo Especial",
+      "essence_1":"Essencia",
+      "essence_2":"Essencia",
+      "essence_3":"Essencia",
+      "essence_4":"Essencia",
+      "essence_5":"Essencia",
+      "essence_6":"Essencia",
+      "essence_7":"Essencia",
+      "essence_8":"Essencia",
+      "essence_9":"Essencia",
+      "easter_egg":"Ovo da Páscoa",
+      "easter_fragment":"Fragmento da Páscoa",
+      "special_easter_egg":"Ovo da Páscoa Especial",
+      "core_pet":"NUCLEO PET"
+   },
    "items":{
       "stick":"GRAVETO",
       "stone":"PEDRA",
