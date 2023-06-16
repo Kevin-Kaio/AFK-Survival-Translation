@@ -1,7 +1,9 @@
 {
    "error":{
-      "message":"Oops! An unexpected error has occurred. Our development team has been notified and is working to resolve it. If you continue to encounter difficulties, please contact our support team.\nID:",
-      "multiple_connection_warning":"You have been disconnected due to simultaneous account use on another device."
+      "message":"Oops! An unexpected error occurred. Our development team has been notified and is working to resolve it. If you continue to encounter difficulties, please contact our support team.\nID:",
+      "multiple_connection_warning":"You have been disconnected due to simultaneous use of the account on another device.",
+      "new_version":"New version available!\nUpdate now to enjoy new features and performance improvements.",
+      "no_have_resource":"You do not have enough resources for this action!"
    },
    "global":{
       "cancel":"CANCEL",
@@ -15,17 +17,17 @@
       "victory":"VICTORY",
       "defeat":"DEFEAT",
       "kills":"KILLS",
-      "deaths":"DEATH",
-      "stats":"STATUS",
+      "deaths":"DEATHS",
+      "stats":"STATS",
       "title":"TITLE",
       "reward":"REWARD",
       "yes":"YES",
       "no":"NO",
-      "loot_random":"LOOT RANDOM",
+      "loot_random":"RANDOM LOOT",
       "pet_essence":"+ PET ESSENCE",
       "update":"UPDATE",
       "chance":"CHANCE",
-      "camp_fire":"CAMPBORN",
+      "camp_fire":"CAMP FIRE",
       "time":"TIME",
       "delete":"DELETE",
       "no_item":"NO ITEM",
@@ -37,11 +39,11 @@
          "training":"TRAINING",
          "rank":"RANK",
          "inventory":"INVENTORY",
-         "pvp":"pvp",
+         "pvp":"PVP",
          "boss":"BOSS",
          "pets":"PETS",
          "events":"EVENTS",
-         "chest":"CHECK",
+         "chest":"CHEST",
          "dungeon":"DUNGEON",
          "missions":"MISSIONS",
          "clan":"CLAN"
@@ -55,12 +57,12 @@
             "distribute_points":"DISTRIBUTE POINTS",
             "reset_points":"RESET POINTS",
             "error_exist_name":"The entered name is already in use.",
-            "reset_error":"While exploring, gathering or hunting, it is not possible to reset your points.",
+            "reset_error":"During exploration, collection, or hunting, it is not possible to reset your points.",
             "error_minimum_characters":"Minimum 3 characters"
          },
          "messages":{
             "title":"MESSAGES",
-            "no_message":"No message."
+            "no_message":"No messages."
          },
          "shop":{
             "title":"SHOP",
@@ -82,8 +84,9 @@
             "subscreens":{
                "explore":{
                   "title":"EXPLORE",
-                  "no_reward":"You already discovered everything that exists on the island!",
-                  "next_reward":"NEXT REWARDS:"
+                  "no_reward":"You have already discovered everything that exists on the island!",
+                  "next_reward":"NEXT REWARDS:",
+                  "cancel_exploration":"Are you sure you want to cancel the exploration?"
                },
                "collect":{
                   "title":"COLLECT",
@@ -91,66 +94,106 @@
                   "collection":"COLLECTION"
                },
                "hunt":{
-                  "title":"HUNTING",
+                  "title":"HUNT",
                   "total_hunt":"TOTAL HUNT",
-                  "drop_event":"DROP EVENT"
+                  "drop_event":"EVENT DROP"
                }
             }
          },
          "rank":{
-            "no_player":"No player found",
+            "no_player":"No players found",
             "trophies":"TROPHIES"
          },
          "training":{
             "title":"TRAINING",
             "click":"CLICK",
-            "strength_click":"STRENGTH OF CLICK"
+            "strength_click":"CLICK STRENGTH"
          },
          "inventory":{
             "title":"INVENTORY"
          },
          "pvp":{
             "battle_button":"BATTLE",
-            "text":"👋 Hello Shipwrecked, welcome to the Arena! Here you can challenge other players and show your skills. 🎁 Also, at the end of the Arena event, you will receive prizes according to your score rank. 🏆\\ n\nThe score rank is based on your performance during the arena and includes the following levels:\n🥉Bronze (300 to 999 points)\n🥈Silver (1000 to 1799 points)\n🥇Gold (1800 to 2799 points) \n🏅Platinum (2800 points or more)\n\nArena SEASON 3 award winners will also receive an amount of gold and gem according to their score rank. The award will be as follows:\n🥉Bronze - 50K Gold and 50 Gem\n🥈Silver - 250K Gold and 100 Gem\n🥇Gold - 500K Gold and 150 Gem\n🏅Platinum - 1M Gold and 200 Gem\n\n In addition, players who stay in TOP 3 will also receive an additional amount of Gold and Gem:\n🥇TOP 1 - 6M Gold and 350 Gem\n🥈TOP 2 - 4M Gold and 300 Gem\n🥉TOP 3 - 2M Gold and 250 Gem\n \n Good luck in your battles! 🍀",
-            "final_date":"End: 06/05/2023 21:00:00 - Brasilia",
+            "text":"👋 Hello castaway, welcome to the Arena! Here you can challenge other players and showcase your skills. 🎁 Additionally, at the end of the Arena event, you will receive rewards based on your score rank. 🏆\n\nThe score rank is based on your performance during the arena and includes the following levels:\n🥉Bronze (300 to 999 points)\n🥈Silver (1000 to 1799 points)\n🥇Gold (1800 to 2799 points)\n🏅Platinum (2800 points or more)\n\nThe rewards for the 3rd Arena SEASON winners will also receive a quantity of gold and gems based on their score rank. The rewards will be as follows:\n🥉Bronze - 50K gold and 50 gems\n🥈Silver - 250K gold and 100 gems\n🥇Gold - 500K gold and 150 gems\n🏅Platinum - 1M gold and 200 gems\n\nAdditionally, players who rank in the TOP 3 will also receive an additional quantity of gold and gems:\n🥇TOP 1 - 6M gold and 350 gems\n🥈TOP 2 - 4M gold and 300 gems\n🥉TOP 3 - 2M gold and 250 gems\n\nGood luck in your battles! 🍀",
+            "final_date":"End: 06/05/2023 21:00:00 - Brasília",
             "battle":{
                "title":"BATTLE",
-               "start":"START COMBAT",
-               "victory":"YOU WIN, CLICK HERE TO EXIT",
-               "lose":"YOU LOST IT, CLICK HERE TO EXIT",
-               "escape":"RUN FROM COMBAT",
-               "escape_text_player":"Escape from battle may result in loss of trophies and be interpreted as a defeat.\n\n Are you sure you want to escape?",
-               "escape_text_boss":"Escape from battle may result in the loss of the day's rewards from this boss.\n\n Are you sure you want to escape?"
+               "start":"START BATTLE",
+               "victory":"YOU WON, CLICK HERE TO EXIT",
+               "lose":"YOU LOST, CLICK HERE TO EXIT",
+               "escape":"ESCAPE BATTLE",
+               "escape_text_player":"Escaping the battle may result in the loss of trophies and be interpreted as a defeat.\n\nAre you sure you want to escape?",
+               "escape_text_boss":"Escaping the battle may result in the loss of today's boss rewards.\n\nAre you sure you want to escape?"
             }
          },
          "pets":{
-            "no_wood_camp_fire":"Your campfire is out! To hatch your eggs, you need to relight it. Make sure you refill your campfire with enough wood to keep it burning long enough to hatch your eggs.",
+            "no_wood_camp_fire":"Your campfire is extinguished! To hatch your eggs, you need to light it again. Make sure to replenish the campfire with enough firewood to keep it burning long enough to hatch your eggs.",
+            "delete_pet":"Are you sure you want to delete your pet?\n\nThis action is permanent, and all information related to your pet will be erased.",
             "camp_fire":{
                "eggs":"EGGS",
                "broke":"BROKE",
-               "feed_camp_fire":"FEED CAMP"
+               "feed_camp_fire":"FEED CAMPFIRE"
             }
          },
          "events":{
             "title":"EVENTS",
             "easter":{
                "title":"EASTER",
-               "text":"Start: 2023-04-08 00:00:00 (UTC +00:00)\nEnd: 2023-04-22 23:59:59 (UTC +00:00)\n\nTo earn shards you must collect here daily or hunt rabbits in the hunting tab.\nPrizes:\n1 - 5M gold, 600 yolk 6 special easter eggs.\n2 - 4M gold, 500 yolk 5 special easter eggs.\n3 - 3M gold, 400 yolk 4 special easter eggs.\n4 - 2M gold, 300 yolk 3 special easter eggs.\n5 - 1M gold, 200 yolk 2 special easter eggs.\n\nThe rest will receive:\n - 250K Gold, 100 Yolk 1 Special Easter Egg."
+               "text":"Start: 2023-04-08 00:00:00 (UTC +00:00)\nEnd: 2023-04-22 23:59:59 (UTC +00:00)\n\nTo earn fragments, you must collect them here daily or hunt rabbits in the hunting tab.\nPrizes:\n1 - 5M gold, 600 gems, 6 special Easter eggs.\n2 - 4M gold, 500 gems, 5 special Easter eggs.\n3 - 3M gold, 400 gems, 4 special Easter eggs.\n4 - 2M gold, 300 gems, 3 special Easter eggs.\n5 - 1M gold, 200 gems, 2 special Easter eggs.\n\nThe remaining players will receive:\n- 250K gold, 100 gems, 1 special Easter egg."
             }
          }
       }
+   },
+   "equipment":{
+      "sword":"SWORD",
+      "shield":"SHIELD",
+      "helmet":"HELMET",
+      "chestplate":"CHESTPLATE",
+      "pants":"PANTS",
+      "glove":"GLOVE",
+      "boot":"BOOT"
+   },
+   "pets":{
+      "mouse_1":"Gray Mouse",
+      "mouse_2":"White Mouse",
+      "mouse_3":"Black Mouse",
+      "mouse_4":"Rodent King",
+      "mouse_5":"Rodent Duke",
+      "mouse_6":"Rodent Count",
+      "rabbit_1":"Bronze Rabbit",
+      "rabbit_2":"Silver Rabbit",
+      "rabbit_3":"Golden Rabbit",
+      "rabbit_4":"White Rabbit",
+      "rabbit_5":"Eren"
+   },
+   "items_pets":{
+      "common_egg":"Common Egg",
+      "special_egg":"Special Egg",
+      "essence_1":"Essence",
+      "essence_2":"Essence",
+      "essence_3":"Essence",
+      "essence_4":"Essence",
+      "essence_5":"Essence",
+      "essence_6":"Essence",
+      "essence_7":"Essence",
+      "essence_8":"Essence",
+      "essence_9":"Essence",
+      "easter_egg":"Easter Egg",
+      "easter_fragment":"Easter Fragment",
+      "special_easter_egg":"Special Easter Egg",
+      "core_pet":"PET CORE"
    },
    "items":{
       "stick":"STICK",
       "stone":"STONE",
       "shell":"SHELL",
       "sand":"SAND",
-      "dirt":"EARTH",
+      "dirt":"DIRT",
       "leaf":"LEAF",
       "wood":"WOOD",
       "bamboo":"BAMBOO",
       "clay":"CLAY",
-      "vine":"CIPO",
+      "vine":"VINE",
       "cotton":"COTTON",
       "copper":"COPPER",
       "iron":"IRON",
@@ -160,24 +203,24 @@
       "fish":"FISH",
       "frog":"FROG",
       "turtle":"TURTLE",
-      "pufferfish":"BAIACU",
-      "rabbit":"COELHO",
-      "dolphin":"GOLFIN",
-      "seal":"FOCA",
+      "pufferfish":"PUFFERFISH",
+      "rabbit":"RABBIT",
+      "dolphin":"DOLPHIN",
+      "seal":"SEAL",
       "seagull":"SEAGULL",
       "iguana":"IGUANA",
       "spider":"SPIDER",
       "capybara":"CAPYBARA",
-      "snake":"COBRA",
+      "snake":"SNAKE",
       "bat":"BAT",
       "shark":"SHARK"
    },
    "titles":{
-      "title_1":"Newbie 1",
-      "title_2":"Newbie 2",
-      "title_3":"Newbie 3",
-      "title_4":"Newbie 4",
-      "title_5":"Newbie 5",
+      "title_1":"Rookie 1",
+      "title_2":"Rookie 2",
+      "title_3":"Rookie 3",
+      "title_4":"Rookie 4",
+      "title_5":"Rookie 5",
       "title_6":"Apprentice 1",
       "title_7":"Apprentice 2",
       "title_8":"Apprentice 3",
